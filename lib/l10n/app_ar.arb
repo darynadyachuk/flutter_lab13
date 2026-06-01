@@ -1,0 +1,46 @@
+{
+  "@@locale": "ar",
+  "appTitle": "متجري",
+  "productsTab": "المنتجات",
+  "settingsTab": "الإعدادات",
+  "selectLanguage": "اختر اللغة",
+  "edit": "تعديل",
+  "add": "إضافة",
+  "cancel": "إلغاء",
+  "save": "حفظ",
+  "delete": "حذف",
+  "searchPlaceholder": "بحث...",
+  "helloUser": "مرحباً، {name}!",
+  "@helloUser": {
+    "placeholders": {
+      "username": {
+        "type": "String"
+      }
+    }
+  },
+  "itemsCount": "{count, plural, =0{لا توجد منتجات} =1{منتج واحد} =2{منتجين} few{3-10 منتجات} other{{count} منتج}}",
+  "@itemsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "addedDate": "تمت الإضافة في {date}",
+  "@addedDate": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMd"
+      }
+    }
+  },
+  "totalPrice": "الإجمالي: {price}",
+  "@totalPrice": {
+    "placeholders": {
+      "price": {
+        "type": "double"
+      }
+    }
+  }
+}

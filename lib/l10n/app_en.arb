@@ -1,0 +1,125 @@
+{
+  "@@locale": "en",
+
+  "appTitle": "My Store",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+
+  "productsTab": "Products",
+  "@productsTab": {
+    "description": "Label for the products tab in navigation"
+  },
+
+  "settingsTab": "Settings",
+  "@settingsTab": {
+    "description": "Label for the settings tab in navigation"
+  },
+
+  "helloUser": "Hello, {name}!",
+  "@helloUser": {
+    "description": "Greeting message with user name",
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+
+  "itemsCount": "{count, plural, =0{No items} =1{1 item} other{{count} items}}",
+  "@itemsCount": {
+    "description": "Number of items with pluralization",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+
+  "totalPrice": "Total: {price}",
+  "@totalPrice": {
+    "description": "Total price of the order",
+    "placeholders": {
+      "price": {
+        "type": "double",
+        "format": "currency"
+      }
+    }
+  },
+
+  "addedDate": "Added: {date}",
+  "@addedDate": {
+    "description": "The date when the item was added",
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMd"
+      }
+    }
+  },
+
+  "languageLabel": "Language",
+  "@languageLabel": {
+    "description": "Label for language selection settings"
+  },
+
+  "selectLanguage": "Select Language",
+  "@selectLanguage": {
+    "description": "Title for language selection dialog"
+  },
+
+  "ukrainian": "Ukrainian",
+  "@ukrainian": {
+    "description": "Ukrainian language name"
+  },
+
+  "english": "English",
+  "@english": {
+    "description": "English language name"
+  },
+
+  "polish": "Polish",
+  "@polish": {
+    "description": "Polish language name"
+  },
+
+  "save": "Save",
+  "@save": {
+    "description": "Button text to save changes"
+  },
+
+  "cancel": "Cancel",
+  "@cancel": {
+    "description": "Button text to cancel action"
+  },
+
+  "delete": "Delete",
+  "@delete": {
+    "description": "Button text to delete an item"
+  },
+
+  "edit": "Edit",
+  "@edit": {
+    "description": "Button text to edit an item"
+  },
+
+  "add": "Add",
+  "@add": {
+    "description": "Button text to add a new item"
+  },
+
+  "themeMode": "Dark Theme",
+  "@themeMode": {
+    "description": "Label for switching between light and dark themes"
+  },
+
+  "logoutButton": "Log Out",
+  "@logoutButton": {
+    "description": "Button text to log out from account"
+  },
+
+  "searchPlaceholder": "Search products...",
+  "@searchPlaceholder": {
+    "description": "Placeholder text for the search input field"
+  }
+}

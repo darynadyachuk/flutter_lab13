@@ -1,0 +1,23 @@
+{
+  "@@locale": "pl",
+  "appTitle": "Mój Sklep",
+  "productsTab": "Produkty",
+  "settingsTab": "Ustawienia",
+  "helloUser": "Cześć, {name}!",
+  "itemsCount": "{count, plural, =0{Brak produktów} =1{1 produkt} few{{count} produkty} other{{count} produktów}}",
+  "totalPrice": "Suma: {price}",
+  "addedDate": "Dodano: {date}",
+  "languageLabel": "Język",
+  "selectLanguage": "Wybierz język",
+  "ukrainian": "Ukraiński",
+  "english": "Angielski",
+  "polish": "Polski",
+  "save": "Zapisz",
+  "cancel": "Anuluj",
+  "delete": "Usuń",
+  "edit": "Edytuj",
+  "add": "Dodaj",
+  "themeMode": "Ciemny motyw",
+  "logoutButton": "Wyloguj się",
+  "searchPlaceholder": "Szukaj produktów..."
+}

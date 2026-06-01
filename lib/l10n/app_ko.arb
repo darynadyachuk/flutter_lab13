@@ -1,0 +1,46 @@
+{
+  "@@locale": "ko",
+  "appTitle": "내 상점",
+  "productsTab": "상품",
+  "settingsTab": "설정",
+  "selectLanguage": "언어 선택",
+  "edit": "수정",
+  "add": "추가",
+  "cancel": "취소",
+  "save": "저장",
+  "delete": "삭제",
+  "searchPlaceholder": "검색...",
+  "helloUser": "안녕하세요, {name}님!",
+  "@helloUser": {
+    "placeholders": {
+      "username": {
+        "type": "String"
+      }
+    }
+  },
+  "itemsCount": "상품 {count}개",
+  "@itemsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "addedDate": "{date}에 추가됨",
+  "@addedDate": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMd"
+      }
+    }
+  },
+  "totalPrice": "총액: {price}",
+  "@totalPrice": {
+    "placeholders": {
+      "price": {
+        "type": "double"
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "@@locale": "pt",
+  "appTitle": "Minha Loja",
+  "productsTab": "Produtos",
+  "settingsTab": "Configurações",
+  "selectLanguage": "Selecionar idioma",
+  "edit": "Editar",
+  "add": "Adicionar",
+  "cancel": "Cancelar",
+  "save": "Salvar",
+  "delete": "Excluir",
+  "searchPlaceholder": "Buscar...",
+  "helloUser": "Olá, {name}!",
+  "@helloUser": {
+    "placeholders": {
+      "username": {
+        "type": "String"
+      }
+    }
+  },
+  "itemsCount": "{count, plural, =0{Nenhum produto} =1{1 produto} other{{count} produtos}}",
+  "@itemsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "addedDate": "Adicionado em {date}",
+  "@addedDate": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMd"
+      }
+    }
+  },
+  "totalPrice": "Total: {price}",
+  "@totalPrice": {
+    "placeholders": {
+      "price": {
+        "type": "double"
+      }
+    }
+  }
+}

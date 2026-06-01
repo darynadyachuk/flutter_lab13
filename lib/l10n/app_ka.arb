@@ -1,0 +1,46 @@
+{
+  "@@locale": "ka",
+  "appTitle": "ჩემი მაღაზია",
+  "productsTab": "პროდუქტები",
+  "settingsTab": "პარამეტრები",
+  "selectLanguage": "ენის არჩევა",
+  "edit": "რედაქტირება",
+  "add": "დამატება",
+  "cancel": "გაუქმება",
+  "save": "შენახვა",
+  "delete": "წაშლა",
+  "searchPlaceholder": "ძებნა...",
+  "helloUser": "გამარჯობა, {name}!",
+  "@helloUser": {
+    "placeholders": {
+      "username": {
+        "type": "String"
+      }
+    }
+  },
+  "itemsCount": "{count, plural, =0{პროდუქტი არ არის} =1{1 პროდუქტი} other{{count} პროდუქტი}}",
+  "@itemsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "addedDate": "დაემატა {date}",
+  "@addedDate": {
+    "placeholders": {
+      "date": {
+        "type": "DateTime",
+        "format": "yMd"
+      }
+    }
+  },
+  "totalPrice": "სულ: {price}",
+  "@totalPrice": {
+    "placeholders": {
+      "price": {
+        "type": "double"
+      }
+    }
+  }
+}
