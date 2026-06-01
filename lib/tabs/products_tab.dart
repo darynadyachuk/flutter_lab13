@@ -39,7 +39,7 @@ class ProductsTab extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            l10n.helloUser('Олександр'),
+            l10n.helloUser('Дарина'),
             style: const TextStyle(fontSize: 22, fontWeight: FontWeight.bold),
           ),
           const SizedBox(height: 15),
